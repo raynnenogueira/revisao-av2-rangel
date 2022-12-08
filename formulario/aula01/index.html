@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/formulario/aula01/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="processar.html">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome:</label> <!---- label é o rotulo ---->
+            <input type="text" placeholder="Digite seu nome" required>
+            <label>Email:</label>
+            <input type="email" placeholder="Digite seu email">
+            <input type="date">
+            <!--- <input type="submit"">  --> <!--- botao enviar --->
+            <input type="password">
+            <!--- <input type="number"/> ---->
+            <!---- <input type="color"/> ----->
+            <!---- <input type="range"/> ----->
+            <!---<input type="radio"> ---->
+        </fieldset>
+        <fieldset>
+            <legend>Formação</legend>
+            <select>
+                <option>Selecione</option>
+                <option>Ensino Medio</option>
+                <option>Graduação</option>
+                <option>Mestrado</option>
+            </select>
+            <br>
+            <input type="checkbox">
+            Fiz um curso nos ultimos 03 meses.
+            <hr>
+            Qual curso você fez no ultimo ano?
+            <input type="radio" name="curso">Figma
+            <input type="radio" name="curso">PHP
+            <input type="radio" name="curso">CSS
+        </fieldset>
+    </form>
+</body>
+</html>
+
+<!---- notepad.pw/mengaolibertadores ------->
+<!---- telegra.ph/Webcoding---Unijuazeiro---Aula-011122-11-01  -->

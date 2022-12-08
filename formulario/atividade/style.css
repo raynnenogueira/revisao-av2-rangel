@@ -1,0 +1,36 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 90px;
+}
+
+.cadastro {
+    background-color: #FFFFFF;
+    width: 500px;
+}
+
+.login {
+    background-color: #F3F5F9 ;
+    width: 500px;
+}
+
+button {
+    background-color: #7E56D8;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 0px 37px;
+}
+
+h2 {
+    color: #7E56D8;
+}
+
+h3 {
+    color: #121B2A;
+}
+
+label {
+    color: #BCBCCE;
+}
