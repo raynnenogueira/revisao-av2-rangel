@@ -1,0 +1,57 @@
+body, ul {
+    font-family: 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    /* centralizei os itens filhos no centro da pagina da propriedade "form" */
+    align-items: center; /* CENTRALIZAR */
+    justify-content: center; /* CENTRALIZAR */
+}
+
+form {
+    padding: 30px;
+    background-color: #f2c190;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+label {
+    margin: 0px 0px 15px 0px;
+}
+
+label:hover {
+    color: #cf37cf;
+}
+
+input[type="text"], 
+input[type="password"],
+input[type="email"] {
+    height: 25px;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type="text"]:focus {
+    background-color: #de4dde;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    /* height: 40px; */
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+input[type="submit"]:hover { /* HOVER  é uma pseudoclasse */ /* passa o mouse em cima do botao e mudar de cor */
+    background-color: purple;
+}

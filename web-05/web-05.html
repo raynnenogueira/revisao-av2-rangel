@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisao de Formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <section class="principal">
+        <form action="web-05.html" method="get">      <!---- ACTION é a acao pra onde vai--> 
+        <!--- METHOD é como vai para a acao -->    <!--- POST envia os dados com modo http --> 
+        <!--- GET envia os dados via url -->            <!--- VALUE determianr valor atribuido ao input  ---->
+        <!---- FOR  liga do meu label com meu input ---->    <!--ID é o identificador ---> 
+            <label for="fornome">Digite seu nome</label> 
+            <input id="fornome" type="text" required>
+            
+            <label for="foremail">Digite seu email</label> 
+            <input id="foremail" type="email" required> 
+            
+            <label for="forsenha">Digite sua senha</label> 
+            <input id="forsenha" type="password" required> 
+            
+            <input type="checkbox" name="aprovar" id="check" > 
+            <label for="check">Deseja receber promoção no seu email?</label>
+
+            <input type="submit" value="Clique Aqui">
+        </form>
+    </section>
+    
+</body>
+</html>

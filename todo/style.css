@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5800FF;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container-tarefas {
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.container-formulario h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.container-formulario input[type="text"] {
+    height: 35px;
+    font-size: 18px;
+}
+
+.container-formulario input[type="submit"] {
+    height: 39px;
+    position: relative;
+    top: -1px;
+    background-color: #0cafaf;
+    border: 0px;
+    color: #fff;
+}
+
+.container-lista-tarefas ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container-lista-tarefas ul li {
+    padding: 10px 20px;
+    background-color: #f6f6f6;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.container-lista-tarefas ul li::after {
+    content: 'Realizar';
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+}
+
+.container-lista-tarefas ul .realizado {
+    background-color: #0cafaf;
+    color: #fff;
+}
+
+.container-lista-tarefas ul .realizado::after {
+    content: 'Realizado';
+    color: #fff;
+}
